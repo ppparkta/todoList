@@ -1,10 +1,10 @@
 const $loginForm = document.querySelector("#login-form");
 const $logintInput = document.querySelector("#login-form input");
 const $greeting = document.querySelector("#greeting");
-const USERNAME_KEY="username";
+const USERNAME_KEY = "username";
 const savedUsername = localStorage.getItem(USERNAME_KEY);
 
-function paintGreeting(username){
+function paintGreeting(username) {
 	$greeting.textContent = `Hello ${username}`;
 	$greeting.classList.remove("hidden");
 }
