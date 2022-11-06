@@ -23,8 +23,9 @@ function paintTodo(newTodo) {
     const span = document.createElement("span");
     button.innerText = "X";
     button.addEventListener("click", deleteTodo);
-    li.append(span);
     li.append(button);
+    li.append(span);
+    
     span.innerText = newTodo.text;
     $todoList.append(li);
 }

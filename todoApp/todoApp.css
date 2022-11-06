@@ -1,21 +1,97 @@
-.hidden{
+.hidden {
 	display: none;
 }
 
-.imgoption{
+.imgoption {
 	width: 100%;
 	height: 969px;
 	overflow: hidden;
 }
 
-img{
+#weather {
+	text-align: right;
+	margin: 8px;
+}
+
+#weather span {
+	font-size: 18px;
+	opacity: 80%;
+}
+
+#quote span {
+	border-bottom: 2px white;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 112px;
+	margin-top: 13%;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 8px rgb(87, 87, 87);
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 68px;
+	margin: 0;
+	text-shadow: 1px 1px 8px rgb(87, 87, 87);
+}
+
+span {
+	font-weight: 150px;
+	font-size: 20px;
+	margin: 4px;
+	text-shadow: 1px 1px 8px rgb(87, 87, 87);
+}
+
+button {
+	display: none;
+}
+
+input {
+	width: 350px;
+	height: 32px;
+	font-size: 15px;
+	border: 0;
+	border-radius: 15px;
+	outline: none;
+	padding-left: 10px;
+	background-color: rgb(233, 233, 233);
+	opacity: 70%;
+	margin: 12px 0 12px 0;
+}
+
+body {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+#todo-list li {
+	list-style: none;
+	margin-top: 6px;
+	padding: 0px;
+}
+#todo-list span{
+	font-size: 16px;
+}
+
+#todo-list button:first-child {
+	display: inline;
+	border-radius: 10px;
+	border: 0;
+	color: aliceblue;
+	opacity: 70%;
+}
+
+img {
 	width: 100%;
- 	height: auto;
-	position:absolute;
+	height: auto;
+	position: absolute;
 	left: 0;
-	top:0;
+	top: 0;
 	right: 0;
 	bottom: 0;
 	z-index: -1;
-	opacity: 90%;
+	opacity: 100%;
 }
